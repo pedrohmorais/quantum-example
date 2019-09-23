@@ -1,0 +1,51 @@
+{
+  "name": "datalist-polyfill",
+  "version": "1.23.3",
+  "description": "A minimal and dependency-free vanilla JavaScript datalist polyfill. Supports all standard's functionality as well as mimics other browsers behavior.",
+  "main": "datalist-polyfill.js",
+  "scripts": {
+    "test": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mfranzke/datalist-polyfill.git"
+  },
+  "author": "Maximilian Franzke",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "datalist",
+    "polyfill",
+    "javascript",
+    "html",
+    "autosuggest",
+    "autosuggester",
+    "suggest",
+    "suggester",
+    "select"
+  ],
+  "bugs": {
+    "url": "https://github.com/mfranzke/datalist-polyfill/issues"
+  },
+  "homepage": "https://github.com/mfranzke/datalist-polyfill",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "prettier": "^1.13.6",
+    "wdio-mocha-framework": "^0.6.2",
+    "webdriverio": "^5.0.0",
+    "xo": "^0.24.0"
+  },
+  "xo": {
+    "envs": [
+      "browser"
+    ],
+    "prettier": true,
+    "esnext": false,
+    "rules": {
+      "one-var": 0,
+      "no-use-before-define": 0
+    }
+  }
+}
